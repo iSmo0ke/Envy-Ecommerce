@@ -326,7 +326,7 @@ ul.conat_info li a:hover {
      z-index: 999;
 }
 header.header {
-    background-image: url("img/PH\ wallpaper\ peach.jpg");
+    background-image: url("img/PHwallpaperpeach.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     padding: 30px 0 175px;
@@ -522,6 +522,7 @@ header.header .header_imgInicio {
 
 .transfot {
      text-align: left;
+     color: #000000;
 }
 
 .transfot span {

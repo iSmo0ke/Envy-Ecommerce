@@ -325,12 +325,138 @@ ul.conat_info li a:hover {
      position: absolute;
      z-index: 999;
 }
+header.header {
+    background-image: url("img/PH\ wallpaper\ peach.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px 0 175px;
+}
+
+header.header .logo {
+    margin-top: 20px;
+}
+
+header.header .logo img {
+    max-height: 100px; 
+    width: auto;
+}
+
+header.header .row {
+    display: flex;
+    align-items: center; 
+    flex-wrap: wrap;
+}
+
+header.header .logo {
+    margin-top: 0; 
+}
+
+header.header .menu {
+    position: relative;
+}
+
+header.header .menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none; 
+    text-align:right; 
+}
+
+header.header .menu ul li {
+    display: inline;
+    list-style: outside none none;
+    margin-right: 20px;
+    margin-right: 25px;  
+}
+
+header.header .menu ul li a {
+    color: #000000;
+    display: inline-block;
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+header.header .nav>li>a:hover,
+header.header .nav>li>a:focus {
+    text-decoration: none;
+    background-color: transparent;
+    color: #000;
+}
+
+header.header .text {
+    margin-right: 105px;
+    margin-top: 150px;
+}
+
+header.header .text h3 {
+    color: #000000;
+    font-family: "Raleway", sans-serif;
+    font-size: 55px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    line-height: 65px;
+    text-transform: uppercase;
+}
+
+header.header .text h6 {
+    color: #000000;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 35px;
+    margin-bottom: 52px;
+    margin-top: -5px;
+}
+
+header.header .text p {
+    display: inline-block;
+}
+
+.wrapper a.button {
+    background: #061e37 none repeat scroll 0 0;
+    border-radius: 5px;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    margin-right: 10px;
+    padding: 20px 33px;
+    text-decoration: none;
+    text-transform: uppercase;
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.15);
+}
+
+.wrapper a.button.white {
+    background: #fff none repeat scroll 0 0;
+    color: #061e37;
+}
+
+header.header .header_imgInicio {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.header_imgInicio img {
+    width: 100%;            
+    height: 700px;
+    object-fit: cover;
+    border-radius: 15px;
+    border: 8px solid white;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    transition: transform 0.3s;
+}
+
+.header_imgInicio img:hover {
+    transform: scale(1.02);
+}
 
 
 /** banner section **/
 
 .banner_main {
-     background: url(../images/banner.png);
+     background: url(../images/Phwallpaperpeach.jpg);
      padding: 100px 0px 0px 0px;
      background-size: auto 78%;
      background-repeat: no-repeat;
@@ -364,15 +490,17 @@ ul.conat_info li a:hover {
 }
 
 .text-bg h1 {
-     color: #0f98f8;
+     color: #000000;
      font-size: 60px;
      line-height: 70px;
      padding-bottom: 45px;
      font-weight: bold;
+     font-family: "Raleway", sans-serif;
 }
 
 .text-bg span {
-     color: #222222;
+     color: #000000;
+    font-family: "Raleway", sans-serif;
      font-weight: 500;
      font-size: 17px;
      line-height: 30px;
@@ -421,7 +549,7 @@ ul.conat_info li a:hover {
      max-width: 150px;
      width: 100%;
      padding: 6px 0;
-     background: #222b3c;
+     background: #061e37;
      color: #fff;
      font-size: 17px;
 }
@@ -536,10 +664,204 @@ ul.conat_info li a:hover {
      font-weight: 400;
      display: inline-block;
 }
+.partners {
+    padding: 80px 0;
+    background-color: #f9f9f9;
+}
 
+.brand_grid {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
 
+.single_brand {
+    background: #fff;
+    padding: 30px;
+    margin-bottom: 30px;
+    border: 1px solid #eee;
+    text-align: center;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 120px;
+}
+
+.single_brand img {
+    max-width: 100%;
+    max-height: 60px;
+    filter: grayscale(100%);
+    opacity: 0.6;
+    transition: all 0.3s ease;
+}
+
+.single_brand:hover {
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    border-color: #fff;
+    transform: translateY(-5px);
+}
+
+.single_brand:hover img {
+    filter: grayscale(0%);
+    opacity: 1;
+}
 /** end about section **/
 
+section.project {
+    margin-bottom: 100px;
+}
+
+section.project .project_icon:nth-child(2) i {
+    color: #80d8ff;
+}
+
+section.project .project_icon:nth-child(3) i {
+    color: #ea80fc;
+}
+
+section>.text {
+    margin: 100px auto;
+    max-width: 555px;
+    text-align: center;
+}
+
+section.project p.button {
+    margin-top: 65px;
+    text-align: center;
+}
+
+section.project a.button {
+    display: inline-block;
+    background: #dfff00 none repeat scroll 0 0;
+    font-weight: 700;
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.15);
+}
+
+section.project .text h2 {
+    margin: 0 0 12px;
+}
+
+section .text>h2 {
+    color: #061e37;
+    font-family: "Raleway", sans-serif;
+    font-size: 45px;
+    font-weight: 600;
+}
+
+section .text>p {
+    margin: 0;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: "Raleway", sans-serif;
+    color: #000000;
+}
+
+section.project .text h4 {
+    color: #061e37;
+    font-family: "Raleway", sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    margin: 0 0 15px;
+}
+
+section.project .text p {
+    color: #000000;
+}
+
+section.project .single_project {
+    max-width: 380px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+section.project .single_project i {
+    font-size: 80px;
+    color: #b388ff;
+}
+
+section.project .single_project h3 {
+    margin-top: 40px;
+}
+
+section.project .single_project h3 a {
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #061e37;
+    text-decoration: none;
+}
+
+section.project .single_project p {
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #8197a3;
+}
+
+section.project p.get_start {
+    margin-top: 80px;
+    text-align: center;
+}
+
+section.user_part .useres_part .user_part_part {
+    width: 25%;
+    float: left;
+    background: #82b1ff;
+}
+
+section.user_part .useres_part .user_part_part i {
+    color: #82b1ff;
+}
+
+section.user_part .useres_part .user_part_part:first-child {
+    background: #80d8ff none repeat scroll 0 0;
+}
+
+section.user_part .useres_part .user_part_part:first-child i {
+    color: #80d8ff;
+}
+
+section.user_part .useres_part .user_part_part:nth-child(3) {
+    background: #b388ff none repeat scroll 0 0;
+}
+
+section.user_part .useres_part .user_part_part:nth-child(3) i {
+    color: #b388ff;
+}
+
+section.user_part .useres_part .user_part_part:nth-child(4) {
+    background: #ea80fc none repeat scroll 0 0;
+}
+
+section.user_part .useres_part .user_part_part:nth-child(4) i {
+    color: #ea80fc;
+}
+
+section.user_part .useres_part .user_part_part .user_text {
+    margin-left: 50%;
+    position: relative;
+}
+
+section.user_part .useres_part .user_part_part .user_text i {
+    background: #fff none repeat scroll 0 0;
+    border-radius: 50%;
+    font-size: 30px;
+    left: -80px;
+    padding: 15px;
+    position: absolute;
+    top: 38px;
+}
+
+section.user_part .useres_part .user_part_part .user_text h4 {
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 24px;
+    padding: 40px 0;
+    color: #fff;
+}
 
 /** service section **/
 
@@ -617,6 +939,100 @@ ul.conat_info li a:hover {
      padding-top: 70px;
 }
 
+section.services #accordion {
+    margin: 0 auto 100px;
+    max-width: 800px;
+    padding-top: 30px;
+}
+
+section.services .text {
+    margin-bottom: 0;
+}
+
+section.services #accordion .slide_up {
+    position: relative;
+    padding-left: 300px;
+}
+
+section.services #accordion .accordion_img {
+    left: 25px;
+    position: absolute;
+    width: 250px; /* Define el límite para la imagen */
+    overflow: hidden; /* Opcional: para que nada sobresalga */
+}
+
+section.services #accordion .accordion_img img {
+    width: 100%;       /* Ocupa todo el ancho de su contenedor */
+    max-width: 300px;  /* Pero que no crezca más de esto */
+    height: auto;      /* Mantiene la proporción original */
+}
+
+.slide_up.ui-accordion-content.ui-corner-bottom.ui-helper-reset.ui-widget-content.ui-accordion-content-active {
+    height: 185px !important;
+}
+
+section.services #accordion .slide_up p {
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+section.services #accordion h3 {
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.13);
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 20px 40px;
+    position: relative;
+    text-transform: uppercase;
+}
+
+section.services #accordion h3 i.first {
+    left: 14px;
+    position: absolute;
+    top: 18px;
+}
+
+section.services #accordion h3 i.last {
+    right: 14px;
+    position: absolute;
+    top: 18px;
+}
+
+section.services #accordion h3.ui-accordion-header {
+    border: medium none;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.13);
+    margin-top: 6px;
+    outline: none;
+}
+
+.ui-state-active,
+.ui-widget-content .ui-state-active,
+.ui-widget-header .ui-state-active,
+a.ui-button:active,
+.ui-button:active,
+.ui-button.ui-state-active:hover {
+    background: #fff none repeat scroll 0 0;
+    border: 0px solid #003eff;
+    color: #000;
+    font-weight: normal;
+}
+
+.slide_up.ui-accordion-content.ui-corner-bottom.ui-helper-reset.ui-widget-content.ui-accordion-content-active {
+    border: medium none;
+}
+
+.ui-accordion .ui-accordion-header {
+    box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.1);
+}
+
+.slide_up.ui-accordion-content.ui-corner-bottom.ui-helper-reset.ui-widget-content.ui-accordion-content-active {
+    box-shadow: 4px 6px 8px 2px rgba(0, 0, 0, 0.1);
+    margin-bottom: 12px;
+}
 
 /** end service section **/
 
@@ -1153,3 +1569,560 @@ ul.location_icon li a:hover {
 
 /** end footer **/
 
+
+section.customer_area {
+    background-image: url("img/customar-_area_bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+section.customer_area a.button {
+    display: inline-block;
+    margin-top: 65px;
+}
+
+.verticalCarousel {
+    height: 471px;
+    overflow: hidden;
+}
+
+.vertical_main {
+    height: 595px;
+    overflow: hidden;
+    padding: 90px 0;
+    position: relative;
+}
+
+.vertical_main i {
+    color: #fff;
+    font-size: 40px;
+    margin-left: 105px;
+}
+
+.verticalCarouselHeader {
+    background: #e1e1e1 none repeat scroll 0 0;
+    border-style: solid;
+    border-width: 0;
+    padding: 0;
+}
+
+.verticalCarouselHeader h3 {
+    float: left;
+    margin: 0px;
+}
+
+.verticalCarouselGroup.vc_list>li {
+    background-color: transparent;
+    border-radius: 7px;
+    border-style: solid;
+    border-width: 0;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.05);
+    margin: 0 0 70px;
+}
+
+section.customer_area .vertical_text {
+    background: #fff none repeat scroll 0 0;
+    border-radius: 5px;
+    margin-left: 105px;
+    padding: 33px;
+    position: relative;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.15);
+}
+
+section.customer_area .vertical_text img {
+    border-radius: 50%;
+    height: 60px;
+    left: -105px;
+    position: absolute;
+    top: 25%;
+    width: 60px;
+}
+
+.verticalCarouselGroup.vc_list>li .vertical_text h4 {
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0 0 11px;
+}
+
+.verticalCarouselGroup.vc_list>li .vertical_text p {
+    color: rgb(120, 144, 156);
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    margin: 0;
+    font-style: italic;
+}
+
+/* Area de contacto */
+.carousel-caption-contact {
+    text-align: center;
+    margin-top: 20px;
+    padding-bottom: 30px; /* Espacio para que no choque con los indicadores */
+}
+
+.carousel-caption-contact .button {
+    background-color: #000; /* Puedes cambiarlo al azul de Envycom */
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+    display: inline-block;
+    transition: 0.3s;
+}
+
+.carousel-caption-contact .button:hover {
+    background-color: #333;
+    transform: translateY(-2px);
+}
+
+/* Evita que las flechas laterales se vean mal con el nuevo diseño */
+.carousel-control {
+    height: 295px; /* Altura exacta de tus banners */
+}
+
+section.customer_area .customer_say {
+    margin-top: 115px;
+    padding-right: 135px;
+}
+section.customer_area .customer_say h3 {
+    color: #fff;
+    font-family: "Raleway", sans-serif;
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 56px;
+    margin-bottom: 13px;
+    margin-top: 120px;
+}
+section.customer_area .customer_say p {
+    color: #fff;
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 25px;
+}
+section.customer_area .customer_say p.button {
+    margin-top: 80px;
+}
+section.customer_area .verticalCarousel .vc_goDown {
+    bottom: 34px;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    z-index: 2147483647;
+}
+section.customer_area .verticalCarousel .vc_goUp {
+    top: 34px;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+.vc_goUp.isDisabled,
+.vc_goDown.isDisabled {
+    cursor: pointer;
+    opacity: 1;
+}
+section.team .flexslider .team-text h3 {
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    margin-top: 100px;
+}
+section.team .flexslider .team-text p {
+    color: #abadae;
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+}
+section.team .flexslider {
+    margin: 0 auto 60px;
+    max-width: 700px;
+    padding-top: 200px;
+    text-align: center;
+}
+section.team .flex-control-thumbs {
+    height: 250px;
+    margin: 5px 0 0;
+    overflow: hidden;
+    padding-top: 100px;
+    position: absolute;
+    top: 0;
+    z-index: 0;
+}
+.flex-control-thumbs img {
+    border-radius: 50%;
+    height: 100px;
+    opacity: 0.2;
+    width: 100px;
+}
+.flex-control-thumbs li {
+    display: inline-block;
+    margin: 0 10px;
+    vertical-align: top;
+    width: -moz-fit-content;
+    width: -webkit-fit-content;
+    width: -o-fit-content;
+}
+.flex-control-nav.flex-control-thumbs>li .flex-active {
+    border: 20px solid #fff;
+    box-shadow: 0 0 0 1px rgba(35, 31, 33, 0.1);
+    height: 200px;
+    margin-right: 0;
+    margin-top: -50px;
+    width: 200px;
+}
+section.team .flexslider .team-text p i {
+    color: #90a4ae;
+    font-size: 20px;
+    margin: 20px 16px 0;
+}
+section.team .flex-direction-nav {
+    display: none;
+}
+section.team>.text {
+    margin: 100px auto 0px;
+}
+section.team .text>p {
+    color: rgb(176, 190, 197);
+}
+section.contact_area {
+    background-color: #fafafa;
+}
+section.contact_area .text>p {
+    color: rgb(6, 30, 55);
+}
+section.contact_area>.text {
+    margin: 5px auto 50px;
+    max-width: 555px;
+    text-align: center;
+    padding-top: 20px
+}
+section.contact_area .form_area {
+    margin: 0 auto 95px;
+    max-width: 600px;
+}
+section.contact_area .form_area .input_area input {
+    border: 1px solid #061e37;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 15px 20px;
+    width: 278px;
+    font-family: "Raleway", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(6, 30, 55);
+}
+section.contact_area .form_area textarea:focus,
+section.contact_area .form_area .input_area input:focus { 
+    background-color: #ddd;
+    outline: none;
+}
+section.contact_area .form_area .input_area input:nth-child(odd) {
+    margin-right: 20px;
+}
+section.contact_area .form_area .input_area input:nth-child(even) {
+    margin-left: 20px;
+}
+section.contact_area .form_area textarea {
+    width: 100%;
+    border: 1px solid #061e37;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 15px 20px;
+    height: 150px;
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: #061e37;
+}
+section.contact_area .form_area label p {
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 20px;
+    color: rgb(6, 30, 55);
+}
+section.contact_area .form_area input[type="checkbox"] {
+    margin-right: 10px;
+}
+section.contact_area .form_area input[type="submit"] {
+    background: #1de9b6 none repeat scroll 0 0;
+    border: medium none;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    float: right;
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 15px 50px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.15);
+}
+footer.footer {
+    background: #061e37 none repeat scroll 0 0;
+    padding: 95px 0 90px;
+}
+footer.footer .footer_first_menu ul {
+    margin: 0;
+    padding: 0;
+}
+footer.footer .footer_first_menu ul li {
+    display: inline;
+    margin-right: 20px
+}
+footer.footer .footer_first_menu ul li a {
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #a4a8ac;
+    text-decoration: none;
+}
+footer.footer .footer_last_menu ul {
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+footer.footer .footer_last_menu ul li {
+    display: inline;
+    margin-left: 50px
+}
+footer.footer .footer_last_menu ul li a {
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+    text-decoration: none;
+}
+footer.footer .footer_last_icon {
+    float: right;
+    margin-top: 60px;
+}
+footer.footer .footer-logo img {
+    margin-bottom: 50px;
+}
+footer.footer .footer_last_icon i {
+    color: #384b5f;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+/* Whatsaap flotante */
+.whatsapp-float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 35px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+
+.whatsapp-float:hover {
+    text-decoration: none;
+    color: #FFF;
+    background-color: #128C7E;
+    transform: scale(1.1);
+}
+
+/* Ajuste para móviles: un poco más pequeño para no estorbar */
+@media (max-width: 767px) {
+header.header .menu ul {
+        text-align: center; /* Centra el menú en el móvil */
+        padding: 20px 0;
+    }
+
+    header.header .menu ul li {
+        display: block;    /* Cambia de horizontal a vertical */
+        margin: 10px 0;    /* Espacio entre botones */
+        margin-right: 0;   /* Quitamos el margen lateral que pusiste antes */
+    }
+
+    header.header .menu ul li a {
+        display: block;
+        padding: 10px;
+        font-size: 18px;   /* Un poco más grande para que sea fácil de tocar con el dedo */
+    }
+
+    .whatsapp-float {
+        width: 50px;
+        height: 50px;
+        bottom: 20px;
+        right: 20px;
+        font-size: 30px;
+    }
+
+    /* 1. Quitar fondos de la navbar y el item activo */
+.navbar-default, 
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus {
+    background-color: transparent !important;
+    background: none !important;
+    box-shadow: none !important;
+    color: #000000;
+}
+
+/* 2. Alineación del Logo en móviles */
+.navbar-brand {
+    padding: 20px 20px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-brand img {
+    max-height: 100px;
+    width: auto;
+}
+
+/* 3. Asegurar que en celular el sándwich y logo no se encimen */
+@media (max-width: 767px) {
+    .navbar-header {
+        display: flex;
+        justify-content: space-between; /* Manda el logo a un lado y el botón al otro */
+        align-items: center;
+        width: 100%;
+    }
+    
+    .navbar-toggle {
+        margin-right: 15px;
+        float: none; /* Quitamos el float para que el flexbox mande */
+    }
+    
+    .navbar-brand {
+        float: none; /* Quitamos el float para que el flexbox mande */
+    }
+}
+}
+
+.partners {
+    padding: 80px 0;
+    background-color: #f9f9f9;
+}
+
+.brand_grid {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.single_brand {
+    background: #fff;
+    padding: 30px;
+    margin-bottom: 30px;
+    border: 1px solid #eee;
+    text-align: center;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 120px;
+}
+
+.single_brand img {
+    max-width: 100%;
+    max-height: 60px;
+    filter: grayscale(100%);
+    opacity: 0.6;
+    transition: all 0.3s ease;
+}
+
+.single_brand:hover {
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    border-color: #fff;
+    transform: translateY(-5px);
+}
+
+.single_brand:hover img {
+    filter: grayscale(0%);
+    opacity: 1;
+}
+
+/* Elimina el fondo y el borde del contenedor de la navegación */
+.navbar-default {
+    background-color: transparent !important;
+    border: none !important;
+    margin-bottom: 0;
+}
+
+/* Asegura que el contenedor del menú colapsado (en móviles) tampoco tenga fondo */
+.navbar-default .navbar-collapse {
+    background-color: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+/* Si quieres que el botón de hamburguesa sea visible sobre un fondo oscuro, 
+   puedes cambiar el color de sus rayitas aquí */
+.navbar-default .navbar-toggle {
+    border: none;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #000; /* Cambia esto al color que desees (blanco: #fff) */
+}
+
+/* Limpieza total de fondos para la Navbar (PC y Móvil) */
+.navbar-default,
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-nav > li > a,
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+    background-color: transparent !important;
+    background: none !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.navbar-nav > li.dropdown {
+  position: relative;
+}
+
+.navbar-nav > li.dropdown .dropdown-menu {
+  display: none;       
+  position: absolute;
+  top: 100%;
+  left: 0;
+  min-width: 220px;
+  padding: 8px 0;
+  margin: 6px 0 0;
+  list-style: none;
+  background: #fff;
+  border: 1px solid rgba(0,0,0,.12);
+  border-radius: 8px;
+  box-shadow: 0 10px 25px rgba(0,0,0,.15);
+  z-index: 9999;
+}
+
+.navbar-nav > li.dropdown .dropdown-menu > li > a {
+  display: block;
+  padding: 10px 14px;
+  text-decoration: none;
+  color: #333;
+  white-space: nowrap;
+}
+
+.navbar-nav > li.dropdown .dropdown-menu > li > a:hover {
+  background: rgba(0,0,0,.06);
+}
+
+.navbar-nav > li.dropdown:hover .dropdown-menu {
+  display: block;
+}

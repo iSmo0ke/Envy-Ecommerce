@@ -456,7 +456,7 @@ header.header .header_imgInicio {
 /** banner section **/
 
 .banner_main {
-     background: url(../images/Phwallpaperpeach.jpg);
+     background: url(/images/PHwallpaperpeach.jpg);
      padding: 100px 0px 0px 0px;
      background-size: auto 78%;
      background-repeat: no-repeat;
@@ -465,7 +465,7 @@ header.header .header_imgInicio {
      position: relative;
 }
 .banner_admin {
-     background: url(../images/banner.png);
+     background: url(/images/PHwallpaperpeach.jpg);
      padding: 50px;
      background-size: auto 78%;
      background-repeat: no-repeat;
